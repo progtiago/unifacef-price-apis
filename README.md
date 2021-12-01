@@ -62,6 +62,9 @@ Também deverá ser criado um microsserviço de agregação onde os payloads ori
 ### Para subir essa APP
 
 - Criar um banco de dados mongo local chamado *price-api*, ou alterar o arquivo application.yml atualizando-o para o endereço mongo correto.
+- - Após subir essa aplicação ficará disponível em http://localhost:8082
+- Swagger disponível em: http://localhost:8082/swagger-ui.html
+- FF4J disponível em: http://localhost:8082/ff4j-console/
 
 ## Contatos
 
