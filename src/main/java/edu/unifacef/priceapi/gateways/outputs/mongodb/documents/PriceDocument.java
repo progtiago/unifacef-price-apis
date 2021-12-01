@@ -4,7 +4,6 @@ import edu.unifacef.priceapi.domains.Price;
 import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -18,7 +17,6 @@ public class PriceDocument {
   private String id;
   private Double from;
   private Double to;
-  @CreatedDate
   private LocalDateTime createdDate;
   @LastModifiedDate
   private LocalDateTime lastModifiedDate;
